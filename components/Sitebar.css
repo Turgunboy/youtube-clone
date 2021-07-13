@@ -1,0 +1,13 @@
+.sitebar {
+  position: fixed;
+  width: 200px;
+  z-index: 9999;
+  margin-top: 12vh;
+}
+.sitebar hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

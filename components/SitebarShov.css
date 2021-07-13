@@ -1,0 +1,34 @@
+.SitebarShov {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.icon_sitebarshow {
+  color: #606060;
+  font-size: large !important;
+}
+.SitebarShov > h2 {
+  margin-left: 20px;
+  flex: 1;
+  font-size: 12px;
+  font-weight: 500;
+}
+.SitebarShov:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.SitebarShov:hover > .icon_sitebarshow {
+  color: red;
+}
+.SitebarShov:hover > h2 {
+  font-weight: bold;
+}
+.SitebarShov.slected {
+  background-color: lightgray;
+}
+.SitebarShov.slected > .icon_sitebarshow {
+  color: red;
+}
+.SitebarShov.slected > h2 {
+  font-weight: bold;
+}

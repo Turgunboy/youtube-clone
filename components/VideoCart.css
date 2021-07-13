@@ -1,0 +1,29 @@
+.videoCart {
+  widows: 270px;
+  margin-bottom: 40px;
+}
+.thumbnail > img {
+  height: 140px;
+  width: 250px;
+}
+.cart_info {
+  display: flex;
+  margin-top: 10px;
+}
+.video_text {
+  margin-left: 15px;
+}
+.video_text > h4 {
+  font-size: 14px;
+  margin-bottom: 5px;
+  width: 200px;
+  margin-right: 20px;
+}
+.video_text > p {
+  font-size: 14px;
+  color: gray;
+}
+.cart_avatar {
+  width: 30px !important;
+  height: 30px !important;
+}

@@ -1,0 +1,16 @@
+.videos {
+  justify-content: end;
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+  padding-bottom: 0;
+  margin-left: 200px;
+  margin-top: 15vh;
+}
+.videos h2 {
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.videos_video {
+  display: flex;
+  flex-wrap: wrap;
+}
